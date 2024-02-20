@@ -11895,20 +11895,27 @@ input.labelauty + label.btn-primary:focus, input.labelauty + label.btn-primary:a
 
 
   table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger) {
-    background: #4d1c8cb3;
-    color: #741EE0;
+    background: transparent !important;
+    border: 1px solid #741EE0 !important;
+    color: #741EE0 !important;
   }
 
-   table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove {
-     background: #800ea0ab;
-     color: #F605FE;
-     border-color: #eeccff61;
-   }
+  table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
+    background: #741EE050 !important;
+    border: 1px solid #741EE0 !important;
+    color: #741EE0 !important;
+  }
 
-    table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover {
-        background: rgb(86 0 197);
-        color: #fff;
-        border-color: rgb(70 0 197);
+  table.table.table-striped tr td a.btn.btn-darevisit.btn-danger, button.btn.dacollectremoveexisting, button.btn.dacollectremove {
+  background: transparent !important;
+  border: 1px solid #741EE0 !important;
+  color: #741EE0 !important;
+  }
+
+  table.table.table-striped tr td a.btn.btn-darevisit.btn-danger:hover, button.btn.dacollectremoveexisting:hover, button.btn.dacollectremove:hover {
+    background: #741EE050 !important;
+    border: 1px solid #741EE0 !important;
+    color: #741EE0 !important;
     }
 
   .btn-primary:hover, #daform .da-review-action.da-review-action-button:hover, form#daemailform .btn:hover, .table-responsive + p a.btn-success:hover, .btn.dacollectadd:hover, table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
