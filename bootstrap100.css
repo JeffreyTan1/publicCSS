@@ -12564,7 +12564,6 @@ input.labelauty + label.btn-primary:not(:disabled):not(.disabled):active {
   .btn.dacollectadd:hover,
   table.table.table-striped tr td a.btn.btn-darevisit:not(.btn-danger):hover {
     background-color: #eeccff;
-    border-color: #0069d9;
     color: #fff;
   }
 
